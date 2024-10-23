@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+         <h1>Rugby Score</h1>
+        <div class="container">
+    
+            <div>
+                <h3>HOME</h3>
+                <h2 class="score" id = "home-score">0</h2>
+                <button onclick="addhome(3)">+3</button ><button onclick="addhome(2)">+2</button> <button onclick="addhome(5)">+5</button>
+            </div>
+            <div>
+                <h3>AWAY</h3>
+                <h2 class="score" id="away-score">0</h2>
+                <button onclick="addaway(3)">+3</button><button onclick="addaway(2)">+2</button><button onclick="addaway(5)">+5</button>
+            </div>
+           
+        </div>
+         <button id="startButton">Start Game</button><button id="pauseButton">Pause Game</button>
+    <p id="timer">40:00</p>
+        <script src="index.js"></script>
+    </body>
+</html>
