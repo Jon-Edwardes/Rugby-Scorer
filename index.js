@@ -3,8 +3,8 @@ let homeScore = Number(document.getElementById("home-score").textContent)
 let awayScore = Number(document.getElementById("away-score").textContent) 
 console.log(homeScore+homeScore)
 
-function addhome2(points){
-    homeScore += points
+function addhome2(){
+    homeScore += 2
     document.getElementById("home-score").textContent = homeScore
 }
 
